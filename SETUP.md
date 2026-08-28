@@ -121,7 +121,7 @@ Repo → **Actions** → enable workflows if prompted, then **Run workflow** on 
 
 | workflow | produces | lands in |
 |---|---|---|
-| **Metrics** | 3D isometric calendar, language mix, achievements | `assets/metrics.*.svg` on `main` |
+| **Metrics** | 3D isometric calendar, language mix | `assets/metrics.*.svg` on `main` |
 | **Snake** | snake eating your contribution graph | the `output` branch |
 | **Charts and cards** | both radars, stat card, project cards | `assets/radar*.svg`, `assets/card-*.svg` on `main` |
 
@@ -186,3 +186,25 @@ couldn't create the `output` branch.
 
 **Sanchay's card vanished.** `darved2305/Sanchay` has to stay public for the direct
 fetch to work unauthenticated.
+
+---
+
+## Removed: the metrics achievements and habits plugins
+
+`lowlighter/metrics` is pinned to `@latest`, but its last release is **v3.34, September
+2023**. Two of its four plugins are broken against today's GitHub API and both rendered a
+red **"Unexpected error"** card straight onto the profile:
+
+- **achievements** — queries **Projects (classic)**, which GitHub has sunset. The GraphQL
+  API now hard-errors on it. Tracked upstream in an open issue, *"Manager" Achievement
+  Broken Due to Projects Classic Deprecation*; no fix released.
+- **habits** — `TypeError: Cannot destructure property 'author' of 'undefined'` in
+  `source/plugins/habits/index.mjs:51`, on an event payload shape it doesn't expect.
+
+Neither is a token or permissions problem — `isocalendar` and `languages` use the same
+token and work fine. Both steps were deleted from `metrics.yml` rather than left to fail
+on every scheduled run.
+
+If you want an achievements strip back, generating one into `scripts/cards.py` from the
+REST API is the reliable route — same reasoning that put the stat and repo cards there
+instead of on `github-readme-stats`.
