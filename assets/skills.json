@@ -1,0 +1,13 @@
+{
+  "title": "Skill Radar",
+  "_comment": "Self-rated, 0-100. Starting values inferred from what Luminae, Huygens, Wellora and Sanchay actually are - edit them to taste. 5-8 axes reads best; past that the labels crowd each other.",
+  "axes": [
+    { "label": "JavaScript",      "value": 88 },
+    { "label": "Python",          "value": 82 },
+    { "label": "GLSL / Graphics", "value": 78 },
+    { "label": "React",           "value": 80 },
+    { "label": "Machine Learning","value": 68 },
+    { "label": "Databases",       "value": 72 },
+    { "label": "Physics & Math",  "value": 76 }
+  ]
+}

@@ -1,0 +1,10 @@
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.DS_Store
+Thumbs.db
+
+# Source photo for the portrait. Deliberately not published: only the
+# dot-matrix SVGs go public. Kept locally so dotify.py can be re-run.
+assets/me.png

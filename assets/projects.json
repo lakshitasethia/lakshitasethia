@@ -1,0 +1,22 @@
+{
+  "_comment": "Featured repos, in README order. Star/fork/language come live from the API on every run. 'description' overrides the repo's GitHub description; 'repo' may be \"owner/name\" for a project you contribute to but don't own; 'name' renames the card when the repo slug isn't what the project is called.",
+  "projects": [
+    {
+      "repo": "Luminae",
+      "description": "A real-time path tracer living inside one WebGL2 fragment shader. Soft shadows, caustics and colour bleeding are never special-cased - they fall out of the rendering equation."
+    },
+    {
+      "repo": "Huygens",
+      "description": "Maxwell's curl equations integrated on a 2D Yee lattice, entirely on the GPU. Interference, diffraction and dispersion come for free - the phenomena a path tracer cannot express."
+    },
+    {
+      "repo": "Medtech-Wellora",
+      "name": "Wellora",
+      "description": "Hospital management on one append-only EMR. Clinical risk reorders the work instead of interrupting it, and access is enforced by the database rather than the browser."
+    },
+    {
+      "repo": "darved2305/Sanchay",
+      "description": "An academic career platform for faculty. Publications, grants, evidence and appraisals in one record, so nothing that counts toward a career gets lost in an inbox."
+    }
+  ]
+}
