@@ -21,14 +21,14 @@
                         <rect x="0" y="0" width="460" height="8" fill="white" rx="5"/>
                     </mask>
                     <rect mask="url(#languages-bar)" x="0" y="0" width="0" height="8" fill="#d1d5da"/>
-                    <rect mask="url(#languages-bar)" x="0" y="0" width="156.45139624786367" height="8" fill="#f1e05a"/>
-                    <rect mask="url(#languages-bar)" x="156.45139624786367" y="0" width="101.45132227962331" height="8" fill="#3572A5"/>
-                    <rect mask="url(#languages-bar)" x="257.90271852748697" y="0" width="94.80684400876719" height="8" fill="#3178c6"/>
-                    <rect mask="url(#languages-bar)" x="352.70956253625417" y="0" width="57.474185473416206" height="8" fill="#e34c26"/>
-                    <rect mask="url(#languages-bar)" x="410.18374800967035" y="0" width="29.10574888950313" height="8" fill="#663399"/>
-                    <rect mask="url(#languages-bar)" x="439.2894968991735" y="0" width="15.401682582815232" height="8" fill="#336790"/>
-                    <rect mask="url(#languages-bar)" x="454.69117948198874" y="0" width="2.9489626927553947" height="8" fill="#a52a22"/>
-                    <rect mask="url(#languages-bar)" x="457.64014217474414" y="0" width="2.359857825255872" height="8" fill="#5686a5"/>
+                    <rect mask="url(#languages-bar)" x="0" y="0" width="154.88089873714137" height="8" fill="#f1e05a"/>
+                    <rect mask="url(#languages-bar)" x="154.88089873714137" y="0" width="100.43292900912023" height="8" fill="#3572A5"/>
+                    <rect mask="url(#languages-bar)" x="255.31382774626158" y="0" width="93.85514964178745" height="8" fill="#3178c6"/>
+                    <rect mask="url(#languages-bar)" x="349.16897738804903" y="0" width="56.89724549472921" height="8" fill="#e34c26"/>
+                    <rect mask="url(#languages-bar)" x="406.0662228827783" y="0" width="28.81357823922491" height="8" fill="#663399"/>
+                    <rect mask="url(#languages-bar)" x="434.87980112200313" y="0" width="15.247076713277796" height="8" fill="#336790"/>
+                    <rect mask="url(#languages-bar)" x="450.12687783528094" y="0" width="6.9537618831869255" height="8" fill="#00B4AB"/>
+                    <rect mask="url(#languages-bar)" x="457.08063971846786" y="0" width="2.9193602815321165" height="8" fill="#a52a22"/>
                 </svg>
                 <div class="row fill-width">
                     <section>
@@ -41,7 +41,7 @@
                             </div>
                             <small>
                                 <div>2.18 MB</div>
-                                <div>34.01%</div>
+                                <div>33.67%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -53,7 +53,7 @@
                             </div>
                             <small>
                                 <div>1.32 MB</div>
-                                <div>20.61%</div>
+                                <div>20.4%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -65,19 +65,19 @@
                             </div>
                             <small>
                                 <div>406 kB</div>
-                                <div>6.33%</div>
+                                <div>6.26%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#a52a22" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#00B4AB" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                Jinja
+                                Dart
                             </div>
                             <small>
-                                <div>41.1 kB</div>
-                                <div>0.64%</div>
+                                <div>98 kB</div>
+                                <div>1.51%</div>
                             </small>
                         </div>
                     </section>
@@ -91,7 +91,7 @@
                             </div>
                             <small>
                                 <div>1.42 MB</div>
-                                <div>22.05%</div>
+                                <div>21.83%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -103,7 +103,7 @@
                             </div>
                             <small>
                                 <div>802 kB</div>
-                                <div>12.49%</div>
+                                <div>12.37%</div>
                             </small>
                         </div>
                         <div class="field language details">
@@ -115,19 +115,19 @@
                             </div>
                             <small>
                                 <div>215 kB</div>
-                                <div>3.35%</div>
+                                <div>3.31%</div>
                             </small>
                         </div>
                         <div class="field language details">
                             <div class="field">
                                 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 16 16" width="16" height="16">
-                                    <path fill="#5686a5" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
+                                    <path fill="#a52a22" fill-rule="evenodd" d="M8 4a4 4 0 100 8 4 4 0 000-8z"/>
                                 </svg>
-                                GLSL
+                                Jinja
                             </div>
                             <small>
-                                <div>32.9 kB</div>
-                                <div>0.51%</div>
+                                <div>41.1 kB</div>
+                                <div>0.63%</div>
                             </small>
                         </div>
                     </section>
